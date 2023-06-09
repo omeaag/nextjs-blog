@@ -8,12 +8,12 @@ export default function Sidebar() {
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
-        alignItems: "flex-end",
+        alignItems: "center",
       }}
     >
-      <BlogSection />
-      <BlogSection />
-      <BlogSection />
+      <BlogSection count={1} />
+      <BlogSection count={2} />
+      <BlogSection count={3} />
     </div>
   );
 }
