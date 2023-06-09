@@ -6,7 +6,7 @@ export default function BlogSection() {
         backgroundColor: "pink",
         width: "250px",
         height: "250px",
-        color: "white",
+        color: "black",
         textAlign: "center",
       }}
     >

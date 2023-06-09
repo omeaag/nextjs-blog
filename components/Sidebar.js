@@ -1,4 +1,5 @@
 import BlogSection from "./BlogSection";
+
 export default function Sidebar() {
   return (
     <div
@@ -10,7 +11,6 @@ export default function Sidebar() {
         alignItems: "flex-end",
       }}
     >
-      <BlogSection />
       <BlogSection />
       <BlogSection />
       <BlogSection />
