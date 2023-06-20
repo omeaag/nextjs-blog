@@ -1,9 +1,8 @@
 export default function ContentSection() {
   return (
     <div
-      className="content"
+      className="ContentSection"
       style={{
-        float: "left",
         marginBottom: "5px",
         height: "250px",
         width: "1240px",
